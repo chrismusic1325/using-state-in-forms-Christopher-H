@@ -43,7 +43,7 @@ return(
     <br/>
 
      <label htmlFor='feedback'>Feedback:
-    <input type="textarea"
+    <textarea
     name="feedback"
     value={formData.feedback}
         onChange={handleChange}
